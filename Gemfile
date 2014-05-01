@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
+gem 'jplayer-rails'
+gem 'bootstrap-sass', '~> 3.1.1'
+
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
